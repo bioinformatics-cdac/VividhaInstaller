@@ -40,6 +40,6 @@ PreRequisite :
                 java -jar VividhaInstaller-jar-with-dependencies.jar
 
 
-## 1. Download Gamut Installer (372MB - Contains MongoDB, Wildfly Server and sample vcf data) 
+### 1. Download VIVIDHA Installer (Contains BCFTools, Samtools, gatk, Wildfly Server and sample input BAM and reference files) 
 
 https://drive.google.com/file/d/1REnayrrQ4Xa1qxYht07t9FVwBOHd5_RJ/view?usp=sharing
