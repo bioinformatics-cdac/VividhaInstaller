@@ -11,7 +11,9 @@ PreRequisite :
 ## Step 1:     Start Hadoop
             start all the hadoop deamons (start-all.sh)
 ## Step 2:     Tools Installation (Optional)
-## Step 3:     Update Tools path and Hadoop Configuration in /home/<username>/demo_htvam/conf/application.properties
+## Step 3:     Update Tools path and Hadoop Configuration in application.properties file
+
+                Path for application.properties - /home/<username>/demo_htvam/conf/application.properties
   
                 BCF=/home/<username>/demo_htvam/tools/bcftools-1.9
                 SAMTOOL=/home/<username>/demo_htvam/tools/samtools-1.8
