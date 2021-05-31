@@ -3,14 +3,34 @@
 =======================================================================
 
 
-PreRequisite :
+## PreRequisite :
             Hadoop Installation
-            R Installation
-            Tools Intsallation
+            Visualization-
+                        R Installation (Version >3.0)
+
+                        library(shiny)
+                        library(ggplot2)
+                        library(vcfR)
+                        library(pinfsc50)
+                        library(reshape2)
+                        library(ggplot2)
+                        library(gganimate)
+                        library(gapminder)
+                        
+                        Copy reference file and gff(annotation file) in demo_htvam/FinalVcf location
+                        
+            Tools Intsallation requirement -
+                         GATK
+                         Varscan
+                         BCF
+                         
+                         Specify installation location in application.properties file
 
 ## Step 1:     Start Hadoop
-            start all the hadoop deamons (start-all.sh)
+               start all the hadoop deamons (start-all.sh)
+               
 ## Step 2:     Tools Installation (Optional)
+
 ## Step 3:     Update Tools path and Hadoop Configuration in application.properties file
 
                 Path for application.properties - /home/<username>/demo_htvam/conf/application.properties
@@ -26,7 +46,7 @@ PreRequisite :
                 /htvam/users/<username>/SplittedInputFiles
                 /htvam/users/<username>/referenceFile/<sample files>
 
-                Commands For eference
+                Commands For reference
 
                 Sample input File copy to HDFS -     
                 hadoop fs -put /demo_htvam/InputBamFile/* /htvam/users/<username>/InputBamFile
@@ -37,7 +57,7 @@ PreRequisite :
                 Sample reference files copy to HDFS -  
                 hadoop fs -put /demo_htvam/referenceFile/* /htvam/users/<username>/referenceFile
                
-## Step 5:      Download VIVIDHA Installer (Contains BCFTools, Samtools, gatk, Wildfly Server and sample input BAM and reference files) 
+## Step 5:      Download VIVIDHA Installer (Contains Wildfly Server and sample input BAM and reference files) 
                         https://drive.google.com/file/d/1REnayrrQ4Xa1qxYht07t9FVwBOHd5_RJ/view?usp=sharing
 
 ## Step 5:      Run VIVIDHA Intsaller
