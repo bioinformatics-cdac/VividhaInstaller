@@ -3,6 +3,62 @@
 =======================================================================
 
 
+## VIVIDHA: Variant Analysis & Visualization Interface for Dynamic High-Throughput Application
+
+
+The advent of high throughput sequencing technologies resulted in an explosive growth of sequencing data, which mandates availability of faster and more efficient data analysis tools.
+Variant calling is a key link in the NGS data analysis workflow. The quality of call sets directly affects downstream analysis such as disease-causing gene detection.Joint variant calling is highly relevant in the present scenario of large cohort studies being taken up for genotype-phenotype associations and are of great importance for personalised genomics and precision medicine.
+The objective of the present work is to develop a computational methodology using high performance compute clusters for variant calling of multiple samples at a single instance.
+With the increasing size of datasets, there is a dire need to develop scalable and cost-effective methodologies for variant calling.
+To address this issue, we propose a methodology based on distribution of mapped files (BAM/SAM) into several overlapping chunks to enable fast computation without compromising on the quality of the called variants.Several callers have been employed on the sample dataset and a consensus strategy is used to arrive at the 'optimal set of variants'.
+This methodology would enable variant discovery in low coverage data and reduce the overall 'False Discovery Rate'.
+The methodology has been developed using map-reduce on Hadoop. The data is stored in a distributed manner using HDFS.
+
+## Key Features:
+ - With the increasing size of datasets, there is a dire need to develop scalable and cost-effective methodologies for variant calling
+ - VIVIDHA is based on distribution of mapped files (BAM/SAM) into several overlapping chunks to enable fast computation without compromising on the quality of the called variants
+ - Several callers have been employed on the sample dataset and a consensus strategy is used to arrive at the 'optimal set of variants'
+ - VIVIDHA enables variant discovery in low coverage data and reduce the overall 'False Discovery Rate'
+ - VIVIDHA has been developed using map-reduce on Hadoop wherein data is stored in a distributed manner using HDFS
+
+## Vividha Methodology 
+
+		                                                                                                                                                              			-----------------------------------------------------------------
+		|								|
+		|			Interface				|
+		-----------------------------------------------------------------
+					     |
+					     |
+		-----------------------------------------------------------------
+                |		Tools of Vividha Application     		|
+                |        	   VarScan,BCFtools,GATK			|
+	 	|								|
+		-----------------------------------------------------------------
+					     |
+					     |
+                -----------------------------------------------------------------
+		|		Hadoop Cluster Nodes			  	|
+		|								|
+		-----------------------------------------------------------------
+
+
+
+
+## Sample Input Data
+
+Sample Input data is provided here.
+
+## Link for the sample input data download Click here
+
+## Usage
+
+Using the deployed WAR and Jar file, the tool can be as web client over the internet and executed on hadoop environment. Upload the genomics file over the hadoop environment.
+Following is the way to install and execute it.
+
+# Installation
+
+# VIVIDHA Installer
+
 ## PreRequisite :
             Hadoop Installation
             Visualization-
@@ -63,3 +119,14 @@
 ## Step 5:      Run VIVIDHA Intsaller
 
                 java -jar VividhaInstaller-jar-with-dependencies.jar
+
+## Get Started
+ Default Portal Access URL :
+ http://<Application server>:8080/vividha
+
+By default hdpuser user is created for ADMIN module (password hdpuser). Change the password once logged in and create appropriate users for vividha module.
+User can log in to the application via web portal using his /her credentials approved by hdp user.
+Appropriate input files should be used with respective scripts by user to run the job as mentioned above from step 1 to 5.
+
+
+## Test Run :
