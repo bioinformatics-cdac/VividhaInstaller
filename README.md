@@ -72,6 +72,8 @@ Following is the way to install and execute it.
                         library(ggplot2)
                         library(gganimate)
                         library(gapminder)
+			
+			JAVA 1.8
                         
                         Copy reference file and gff(annotation file) in demo_htvam/FinalVcf location
                         
