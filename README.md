@@ -124,6 +124,11 @@ Following is the way to install and execute it.
 ## Step 6:      Run VIVIDHA Intsaller
 
                 java -jar VividhaInstaller-jar-with-dependencies.jar
+		
+		OR
+		Run with sudo privilege - 
+		
+		sh vivdha.sh
 
 ## Get Started
  Default Portal Access URL :
