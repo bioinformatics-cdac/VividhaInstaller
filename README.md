@@ -99,7 +99,7 @@ Following is the way to install and execute it.
                 SAMTOOL=/home/<username>/demo_htvam/tools/samtools-1.8
                 GATK= /home/<username>/gatk-4.beta.6
                 HADOOP=/demo_htvam/tools/hadoop-3.0.1
-                R=/demo_htvam/tools/R
+                R=/demo_htvam/R
 
 ## Step 4:       Copy/ Put Sample files in Hadoop HDFS File system
                 /htvam/users/<username>/InputBamFile/<sample files>
