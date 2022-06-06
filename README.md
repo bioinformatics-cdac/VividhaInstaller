@@ -65,6 +65,7 @@ Following is the way to install and execute it.
 			apt install tabix
 
                         R Installation (Version >3.0)
+			Note : Location for R should be < /usr/bin/R >
 
                         library(shiny)
                         library(ggplot2)
