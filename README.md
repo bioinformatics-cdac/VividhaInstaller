@@ -120,7 +120,7 @@ Following is the way to install and execute it.
 ## Step 5:      Download VIVIDHA Installer (Contains Wildfly Server and sample input BAM and reference files) 
                         https://drive.google.com/file/d/1REnayrrQ4Xa1qxYht07t9FVwBOHd5_RJ/view?usp=sharing
 
-## Step 5:      Run VIVIDHA Intsaller
+## Step 6:      Run VIVIDHA Intsaller
 
                 java -jar VividhaInstaller-jar-with-dependencies.jar
 
@@ -133,4 +133,6 @@ User can log in to the application via web portal using his /her credentials app
 Appropriate input files should be used with respective scripts by user to run the job as mentioned above from step 1 to 5.
 
 
-## Test Run :
+## Note : 
+	gff file is required to visualize the vcf file.
+	
