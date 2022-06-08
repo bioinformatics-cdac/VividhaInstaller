@@ -48,7 +48,12 @@ The methodology has been developed using map-reduce on Hadoop. The data is store
 
 Sample Input data is provided here.
 
-## Link for the sample input data download Click here
+## Link for the sample input data and Reference files. To download Click here
+
+**InputBamFile : **
+	https://drive.google.com/drive/folders/1Cp5as_3HYLMzSPENuG34tlPPAum_KHug?usp=sharing
+Reference Files : 
+	https://drive.google.com/drive/folders/1Jjf5s9lcr_lgzOx1jAz9zIYUX4L-NrXj?usp=sharing
 
 ## Usage
 
@@ -102,11 +107,8 @@ Following is the way to install and execute it.
                 HADOOP=/demo_htvam/tools/hadoop-3.0.1
                 R=/demo_htvam/R
 
-## Step 4:       Copy/ Put Sample files in Hadoop HDFS File system( Sample file available on google drive. Link : 
-InputBamFile : https://drive.google.com/drive/folders/1Cp5as_3HYLMzSPENuG34tlPPAum_KHug?usp=sharing
-Reference Files : https://drive.google.com/drive/folders/1Jjf5s9lcr_lgzOx1jAz9zIYUX4L-NrXj?usp=sharing
+## Step 4:       Copy/ Put Sample files in Hadoop HDFS File system
 
-)
                 /htvam/users/<username>/InputBamFile/<sample files>
                 /htvam/users/<username>/SplittedInputFiles
                 /htvam/users/<username>/referenceFile/<sample files>
@@ -132,7 +134,7 @@ Reference Files : https://drive.google.com/drive/folders/1Jjf5s9lcr_lgzOx1jAz9zI
 		OR
 		Run with sudo privilege - 
 		
-		sh vivdha.sh
+		sudo sh vivdha.sh
 
 ## Get Started
  Default Portal Access URL :
@@ -143,6 +145,6 @@ User can log in to the application via web portal using his /her credentials app
 Appropriate input files should be used with respective scripts by user to run the job as mentioned above from step 1 to 5.
 
 
-## Note : 
+## **Note** : 
 	gff file is required to visualize the vcf file.
 	
