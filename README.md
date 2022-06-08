@@ -102,7 +102,11 @@ Following is the way to install and execute it.
                 HADOOP=/demo_htvam/tools/hadoop-3.0.1
                 R=/demo_htvam/R
 
-## Step 4:       Copy/ Put Sample files in Hadoop HDFS File system
+## Step 4:       Copy/ Put Sample files in Hadoop HDFS File system( Sample file available on google drive. Link : 
+InputBamFile : https://drive.google.com/drive/folders/1Cp5as_3HYLMzSPENuG34tlPPAum_KHug?usp=sharing
+Reference Files : https://drive.google.com/drive/folders/1Jjf5s9lcr_lgzOx1jAz9zIYUX4L-NrXj?usp=sharing
+
+)
                 /htvam/users/<username>/InputBamFile/<sample files>
                 /htvam/users/<username>/SplittedInputFiles
                 /htvam/users/<username>/referenceFile/<sample files>
