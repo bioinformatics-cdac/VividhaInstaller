@@ -119,7 +119,7 @@ Following is the way to install and execute it.
                 hadoop fs -put /demo_htvam/referenceFile/* /htvam/users/<username>/referenceFile
                
 ## Step 5:      Download VIVIDHA Installer (Contains Wildfly Server and sample input BAM and reference files) 
-                        https://drive.google.com/file/d/1REnayrrQ4Xa1qxYht07t9FVwBOHd5_RJ/view?usp=sharing
+                        https://drive.google.com/file/d/13NL_tBlvfFG1zvGhrjqJIYGBBlHVSI7M/view?usp=sharing
 
 ## Step 6:      Run VIVIDHA Intsaller
 
