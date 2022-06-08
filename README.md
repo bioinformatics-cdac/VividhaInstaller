@@ -50,7 +50,7 @@ Sample Input data is provided here.
 
 ## Link for the sample input data and Reference files. To download Click here
 
-**InputBamFile : **
+InputBamFile : 
 
 	https://drive.google.com/drive/folders/1Cp5as_3HYLMzSPENuG34tlPPAum_KHug?usp=sharing
 	
