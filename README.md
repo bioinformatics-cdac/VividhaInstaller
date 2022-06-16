@@ -48,16 +48,6 @@ The methodology has been developed using map-reduce on Hadoop. The data is store
 
 Sample Input data is provided here.
 
-## Link for the sample input data and Reference files. To download Click here
-
-InputBamFile : 
-
-	https://drive.google.com/drive/folders/1Cp5as_3HYLMzSPENuG34tlPPAum_KHug?usp=sharing
-	
-Reference Files : 
-
-	https://drive.google.com/drive/folders/1Jjf5s9lcr_lgzOx1jAz9zIYUX4L-NrXj?usp=sharing
-
 ## Usage
 
 Using the deployed WAR and Jar file, the tool can be as web client over the internet and executed on hadoop environment. Upload the genomics file over the hadoop environment.
@@ -110,7 +100,31 @@ Following is the way to install and execute it.
                 HADOOP=/demo_htvam/tools/hadoop-3.0.1
                 R=/demo_htvam/R
 
-## Step 4:       Copy/ Put Sample files in Hadoop HDFS File system
+## Step 4:      Download VIVIDHA Installer 
+                        https://drive.google.com/file/d/13NL_tBlvfFG1zvGhrjqJIYGBBlHVSI7M/view?usp=sharing
+			
+## Step 5:      Run VIVIDHA Intsaller
+
+                java -jar VividhaInstaller-jar-with-dependencies.jar
+		
+		OR
+		Run with sudo privilege - 
+		
+		sudo sh vivdha.sh
+		
+			
+## Step 6:	Link for the sample input data and Reference files. To download Click here
+
+		InputBamFile : (download at /demo_htvam/InputBamFile location)
+
+			https://drive.google.com/drive/folders/1Cp5as_3HYLMzSPENuG34tlPPAum_KHug?usp=sharing
+	
+		Reference Files : (download at /demo_htvam/referenceFile location)
+
+			https://drive.google.com/drive/folders/1Jjf5s9lcr_lgzOx1jAz9zIYUX4L-NrXj?usp=sharing
+	
+		
+## Step 7:       Copy/ Put Sample files in Hadoop HDFS File system
 
                 /htvam/users/<username>/InputBamFile/<sample files>
                 /htvam/users/<username>/SplittedInputFiles
@@ -126,18 +140,7 @@ Following is the way to install and execute it.
 
                 Sample reference files copy to HDFS -  
                 hadoop fs -put /demo_htvam/referenceFile/* /htvam/users/<username>/referenceFile
-               
-## Step 5:      Download VIVIDHA Installer (Contains Wildfly Server and sample input BAM and reference files) 
-                        https://drive.google.com/file/d/13NL_tBlvfFG1zvGhrjqJIYGBBlHVSI7M/view?usp=sharing
-
-## Step 6:      Run VIVIDHA Intsaller
-
-                java -jar VividhaInstaller-jar-with-dependencies.jar
-		
-		OR
-		Run with sudo privilege - 
-		
-		sudo sh vivdha.sh
+              
 
 ## Get Started
  Default Portal Access URL :
