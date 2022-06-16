@@ -74,9 +74,9 @@ Following is the way to install and execute it.
                         Copy reference file and gff(annotation file) in demo_htvam/FinalVcf location
                         
             Tools Intsallation requirement -
-                         GATK
-                         Varscan
-                         BCF
+                         GATK (4.beta.6)
+                         Varscan (v2.3.9)
+                         BCF (1.9)
                          
                          Specify installation location in application.properties file
 
@@ -90,6 +90,7 @@ Following is the way to install and execute it.
                 Path for application.properties - /home/<username>/demo_htvam/conf/application.properties
   
                 BCF=/home/<username>/demo_htvam/tools/bcftools-1.9
+		VARSCAN=/home/<username>/demo_htvam/tools/bcftools-1.9
                 SAMTOOL=/home/<username>/demo_htvam/tools/samtools-1.8
                 GATK= /home/<username>/gatk-4.beta.6
                 HADOOP=/demo_htvam/tools/hadoop-3.0.1
