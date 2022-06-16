@@ -90,7 +90,7 @@ Following is the way to install and execute it.
                 Path for application.properties - /home/<username>/demo_htvam/conf/application.properties
   
                 BCF=/home/<username>/demo_htvam/tools/bcftools-1.9
-		VARSCAN=/home/<username>/demo_htvam/tools/bcftools-1.9
+		VARSCAN=/home/<username>/demo_htvam/tools/VarScan.v2.3.9.jar
                 SAMTOOL=/home/<username>/demo_htvam/tools/samtools-1.8
                 GATK= /home/<username>/gatk-4.beta.6
                 HADOOP=/demo_htvam/tools/hadoop-3.0.1
