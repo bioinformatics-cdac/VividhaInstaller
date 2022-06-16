@@ -148,7 +148,7 @@ Following is the way to install and execute it.
 
 By default hdpuser user is created for ADMIN module (password hdpuser). Change the password once logged in and create appropriate users for vividha module.
 User can log in to the application via web portal using his /her credentials approved by hdp user.
-Appropriate input files should be used with respective scripts by user to run the job as mentioned above from step 1 to 5.
+Appropriate input files should be used with respective scripts by user to run the job as mentioned above from step 1 to 7.
 
 
 ## **Note** : 
