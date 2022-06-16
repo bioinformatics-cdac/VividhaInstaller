@@ -76,7 +76,7 @@ Following is the way to install and execute it.
             Tools Intsallation requirement -
                          GATK (4.beta.6)
                          Varscan (v2.3.9)
-                         BCF (1.9)
+                         BCFtools (1.9)
                          
                          Specify installation location in application.properties file
 
