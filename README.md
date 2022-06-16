@@ -105,7 +105,7 @@ Following is the way to install and execute it.
 			
 ## Step 5:      Run VIVIDHA Intsaller
 
-	java -jar VividhaInstaller-jar-with-dependencies.jar
+		java -jar VividhaInstaller-jar-with-dependencies.jar
 		
 		OR
 		Run with sudo privilege - 
