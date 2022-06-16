@@ -44,10 +44,6 @@ The methodology has been developed using map-reduce on Hadoop. The data is store
 
 
 
-## Sample Input Data
-
-Sample Input data is provided here.
-
 ## Usage
 
 Using the deployed WAR and Jar file, the tool can be as web client over the internet and executed on hadoop environment. Upload the genomics file over the hadoop environment.
