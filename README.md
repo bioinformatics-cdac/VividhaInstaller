@@ -65,8 +65,7 @@ Following is the way to install and execute it.
                         library(ggplot2)
                         library(vcfR)
                         library(pinfsc50)
-                        library(reshape2)
-                        library(ggplot2)
+                        library(reshape2)                        
                         library(gganimate)
                         library(gapminder)
 			
